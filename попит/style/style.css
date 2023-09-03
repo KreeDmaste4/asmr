@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/фон.jpg) ;
+}
+
+.box_animate_2{
+    animation: 1.2s popit forwards;
+}
+
+@keyframes popit{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box_animate_2 {
+    animation: 1.2s popit forwards;
+  }
+  
+  @keyframes popit {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .back__img{
+    width: 80px;
+    height: 80px;
+  }

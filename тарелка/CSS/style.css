@@ -1,0 +1,82 @@
+.box{
+    display: flex;
+    margin-top: 600px;
+    justify-content: center;
+    height: 25vh;
+    opacity: 2;
+}
+.body{
+  background: url(../images/фон.jpg) center /cover;
+}
+img{
+    width: 100%;
+}
+.tarelka, .tarelkas, .tarelkath, .tarelkafour{
+    height: 50px;
+}
+.tarelkas{
+    margin-top: -50px;
+}
+.tarelkafour{
+    margin-top: -50px; 
+}
+.boxf{
+    margin-right: -200px;
+}
+  .box_animate_2 {
+    animation: 1.3s animate_2 forwards;
+  }
+  
+  @keyframes animate_2 {
+    0% {
+        margin-top: 600px;
+        opacity: -2;
+      }
+      20%{
+        opacity: 1;
+      }
+      70%{
+        gap: 0px;
+      }
+      80%{
+        gap: 20px;
+      }
+      90%{
+        gap: 30px;
+        transform: rotate(30deg);
+      }
+      100% {
+        margin-top: 100px;
+        opacity: 2;
+        gap: 50px;
+        transform: rotate(60deg);
+        transform: scale(0.6);
+      }
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+
+  .boxz {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: #e9dfdf;
+    background: #16a90c;
+    padding: 1.2rem 2.6rem;
+    border-radius: 0.2rem;
+    transition: opacity .3s;
+  }
+  
+  .boxz:hover {
+    cursor: pointer;
+    background: #0b460a;
+  }
+  
+  @media(max-width:1140px){
+    .box{
+      height: 100px;
+      margin-top: 300px;
+    }
+  }
+  .back__img{
+    height: 80px;
+    width: 80px;
+  }

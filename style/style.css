@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    padding: 20px;
+    background-color: black;
+}
+.header__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.main{
+    background: url(../попит/images/фон.jpg);
+    padding: 30px;
+}
+.main__box-list{
+    display: flex;
+    align-items:center ;
+    gap: 50px;
+    justify-content: center;
+    height: 80vh;
+}
+.footer{
+    padding: 15px;
+    background-color: black;
+}
+.main__img-popit{
+    width: 100%;
+}
